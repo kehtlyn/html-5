@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(177, 170, 238);
+        }
+        h1 {
+            text-align: center;
+        }
+        .Break, .Lunch {
+            background-color: whitesmoke;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>School Timetable</h1>
+    <!-- 1. create a high school timetable
+    2. create a link back to the home page -->
+    <h1>Form 4 Green,Daytime Timetable</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        
+        <tr>
+                <td>08:00-09:00</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>english</td>
+                <td>History</td>
+                <td>life skills</td>        
+       </tr>
+       
+       <tr>
+          <td>09:00-10:00</td>
+          <td>english</td>
+          <td>Math</td>
+          <td>Biology</td>
+          <td>Geography</td>
+          <td>PE</td>
+       </tr>
+       <!--Break row-->
+       <tr class="Bio">
+        <td>10:00-10:30</td>
+        <td colspan="5">BREAK</td>
+       </tr>
+
+       <tr>
+            <td>10:00-30-11:30</td>
+            <td>Chemistry</td>
+            <td>Art</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Music</td>
+       </tr>
+
+    <tr>   
+       <td>11:00-12:30</td>
+       <td>Biology</td>
+       <td>Geography</td>
+       <td>ICT</td>
+       <td>civics</td>
+       <td>Drama</td>
+    </tr> 
+    
+    <!--Lunch row-->
+    <tr class="Lunch">
+        <td>12:00-13:00</td>
+        <td colspan="5">LUNCH</td>
+    </tr>
+
+    <tr>
+        <td>13:30-14:30</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>History</td>
+        <td>kiswahili</td>
+        <td>sports</td>
+    </tr>
+
+    </table>
+</center>
+<a href="index.html">go to home page</a>
+</body>
+</html>
